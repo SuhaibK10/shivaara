@@ -12,7 +12,7 @@
   const occ = OCCASIONS.find((o) => o.slug === c);
   const meta = occ || special[c] || { name: q ? `Results for “${q}”` : "Shop All", blurb: q ? "" : "Every gift, hand-wrapped and ready to send." };
 
-  document.title = `${q ? "Search" : meta.name} | Shivaara`;
+  document.title = `${q ? "Search" : meta.name} | Shivara`;
   document.getElementById("col-title").innerHTML = esc(meta.name);
   document.getElementById("crumb").innerHTML = esc(q ? "Search" : meta.name);
   document.getElementById("col-blurb").textContent = meta.blurb || "";

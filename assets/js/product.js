@@ -4,7 +4,7 @@
   const p = byId(param("id")) || PRODUCTS[0];
   const occ = OCCASIONS.find((o) => o.slug === p.occasions[0]);
 
-  document.title = `${p.name} | Shivaara`;
+  document.title = `${p.name} | Shivara`;
   document.getElementById("crumbs").innerHTML =
     `<a href="index.html">Home</a> / <a href="collection.html?c=${occ.slug}">${occ.name}</a> / <span>${esc(p.name)}</span>`;
 

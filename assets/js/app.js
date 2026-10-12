@@ -130,8 +130,8 @@
             <a href="collection.html?c=bestsellers">Bestsellers</a>
             <a href="collection.html?c=corporate">Corporate</a>
           </nav>
-          <a class="logo" href="index.html" aria-label="Shivaara home">
-            <span class="logo-mark">✦</span>Shivaara
+          <a class="logo" href="index.html" aria-label="Shivara home">
+            <span class="logo-mark">✦</span>Shivara
           </a>
           <div class="header-icons">
             <button class="icon-btn" data-open="search" aria-label="Search">${icon.search}</button>
@@ -166,7 +166,7 @@
       <footer class="footer">
         <div class="container footer-grid">
           <div class="footer-brand">
-            <a class="logo" href="index.html"><span class="logo-mark">✦</span>Shivaara</a>
+            <a class="logo" href="index.html"><span class="logo-mark">✦</span>Shivara</a>
             <p>Thoughtful gifts, wrapped by hand and delivered across India.</p>
             <div class="socials">
               <a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">FB</a>
@@ -184,7 +184,7 @@
           </div>
         </div>
         <div class="container footer-bottom">
-          <span>© ${new Date().getFullYear()} Shivaara. All rights reserved.</span>
+          <span>© ${new Date().getFullYear()} Shivara. All rights reserved.</span>
           <span class="pay">UPI · Cards · Netbanking · COD</span>
           <span class="credit">Photos: Pexels</span>
         </div>
@@ -201,7 +201,7 @@
         <div class="drawer-foot"></div>
       </aside>
       <aside class="drawer drawer-left" id="mobile-nav" aria-label="Menu" aria-hidden="true">
-        <div class="drawer-head"><a class="logo" href="index.html"><span class="logo-mark">✦</span>Shivaara</a><button class="icon-btn" data-close aria-label="Close">${icon.close}</button></div>
+        <div class="drawer-head"><a class="logo" href="index.html"><span class="logo-mark">✦</span>Shivara</a><button class="icon-btn" data-close aria-label="Close">${icon.close}</button></div>
         <nav class="mobile-links">
           <a href="collection.html">Shop All</a>
           <a href="collection.html?c=bestsellers">Bestsellers</a>
@@ -383,7 +383,7 @@
       if (!f) return;
       e.preventDefault();
       const messages = {
-        newsletter: "You're on the list. Welcome to Shivaara!",
+        newsletter: "You're on the list. Welcome to Shivara!",
         corporate: "Thanks! Our gifting team will reach out within one working day."
       };
       toast(messages[f.dataset.form] || "Submitted");

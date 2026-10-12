@@ -5,7 +5,7 @@
   const root = document.getElementById("checkout");
   const SHIPPING_FEE = 79;
   const COD_FEE = 49;
-  const COUPONS = { SHIVAARA10: 0.1, DIWALI15: 0.15 };
+  const COUPONS = { SHIVARA10: 0.1, DIWALI15: 0.15 };
   const STATES = ["Andhra Pradesh", "Assam", "Bihar", "Chandigarh", "Chhattisgarh", "Delhi", "Goa", "Gujarat", "Haryana", "Himachal Pradesh",
     "Jammu & Kashmir", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Odisha", "Punjab", "Rajasthan", "Tamil Nadu",
     "Telangana", "Uttar Pradesh", "Uttarakhand", "West Bengal"];
@@ -80,7 +80,7 @@
           <input placeholder="Discount code" aria-label="Discount code">
           <button class="btn btn-outline" type="submit">Apply</button>
         </form>
-        <p class="small muted" id="coupon-msg">Try SHIVAARA10</p>
+        <p class="small muted" id="coupon-msg">Try SHIVARA10</p>
         <div id="sum-totals"></div>
       </aside>
     </div>`;

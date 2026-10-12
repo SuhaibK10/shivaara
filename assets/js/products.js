@@ -1,4 +1,4 @@
-// Catalog data for the Shivaara storefront prototype.
+// Catalog data for the Shivara storefront prototype.
 // Swap this file for a Shopify Storefront API call when the real store is ready.
 
 window.OCCASIONS = [
