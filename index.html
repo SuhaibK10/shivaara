@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shivaara | Thoughtful Gifts, Wrapped by Hand</title>
+  <meta name="description" content="Hampers, festive gifts, candles, keepsakes and corporate gifting, hand-wrapped and delivered across India.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="home">
+  <div id="site-header" class="site-header"></div>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" aria-roledescription="carousel">
+      <div class="hero-slide is-active">
+        <img class="hero-bg" src="assets/img/hero-diwali.jpg" alt="Diyas lit on a festive tray">
+        <div class="container hero-content">
+          <p class="eyebrow">The Diwali Edit 2026</p>
+          <h1>Light up someone's festival</h1>
+          <p>Hand-packed hampers, brass diyas and mithai boxes, delivered before the first diya is lit.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-light" href="collection.html?c=diwali">Shop festive gifts</a>
+            <a class="btn btn-ghost-light" href="collection.html?c=corporate">Corporate orders</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <img class="hero-bg" src="assets/img/hero-kraft.jpg" alt="Hands tying a bow on a kraft gift box">
+        <div class="container hero-content">
+          <p class="eyebrow">Personalised gifting</p>
+          <h1>Your words, our wrapping</h1>
+          <p>Add a handwritten note to any gift, free. We tie every bow by hand.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-light" href="product.html?id=kraft-love-note-box">Make a love-note box</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <img class="hero-bg" src="assets/img/hero-noir.jpg" alt="Black gift boxes with red bows">
+        <div class="container hero-content">
+          <p class="eyebrow">For teams & clients</p>
+          <h1>Gifting at scale, without the fuss</h1>
+          <p>Logo sleeves, bulk dispatch to multiple addresses and GST invoices, starting at 25 units.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-light" href="#corporate">Get a quote</a>
+          </div>
+        </div>
+      </div>
+      <button class="hero-arrow prev" aria-label="Previous slide">‹</button>
+      <button class="hero-arrow next" aria-label="Next slide">›</button>
+      <div class="hero-dots" role="tablist"></div>
+    </section>
+
+    <!-- USPs -->
+    <section class="usps">
+      <div class="container usp-grid">
+        <div><b>Free shipping</b><span>on orders above ₹999</span></div>
+        <div><b>Handwritten notes</b><span>free with every gift</span></div>
+        <div><b>Pan-India delivery</b><span>27,000+ pincodes</span></div>
+        <div><b>Cash on delivery</b><span>pay when it arrives</span></div>
+      </div>
+    </section>
+
+    <!-- Occasions -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Shop by occasion</p>
+          <h2>What are we celebrating?</h2>
+        </div>
+        <div class="occasion-grid" id="occasions"></div>
+      </div>
+    </section>
+
+    <!-- Bestsellers with tabs -->
+    <section class="section section-tint">
+      <div class="container">
+        <div class="section-head row">
+          <div>
+            <p class="eyebrow">Most gifted</p>
+            <h2>Loved by our customers</h2>
+          </div>
+          <div class="tabs" role="tablist" id="best-tabs">
+            <button class="is-active" data-tab="all">All</button>
+            <button data-tab="diwali">Festive</button>
+            <button data-tab="love">For Love</button>
+            <button data-tab="corporate">Corporate</button>
+          </div>
+        </div>
+        <div class="rail-wrap">
+          <button class="rail-btn prev" aria-label="Scroll left">‹</button>
+          <div class="rail" id="best-rail"></div>
+          <button class="rail-btn next" aria-label="Scroll right">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Festive split -->
+    <section class="split">
+      <div class="split-media"><img src="assets/img/diya-railing.jpg" alt="Lit terracotta diyas along a railing" loading="lazy"></div>
+      <div class="split-copy">
+        <p class="eyebrow">Made by hand in India</p>
+        <h2>Diyas from Khurja, wrapped in Delhi</h2>
+        <p>Our festive range is made with potters, brass-smiths and mithai makers we've worked with for years. Every piece is checked, packed and tied in our own studio before it reaches you.</p>
+        <ul class="ticks">
+          <li>Artisan-made terracotta & brass</li>
+          <li>Fresh mithai packed on dispatch day</li>
+          <li>Plastic-free, recyclable packaging</li>
+        </ul>
+        <a class="btn btn-primary" href="collection.html?c=diwali">Explore the Diwali Edit</a>
+      </div>
+    </section>
+
+    <!-- New arrivals -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head row">
+          <div>
+            <p class="eyebrow">Just in</p>
+            <h2>New arrivals</h2>
+          </div>
+          <a class="link" href="collection.html?c=new">View all →</a>
+        </div>
+        <div class="grid" id="new-grid"></div>
+      </div>
+    </section>
+
+    <!-- Build a hamper banner -->
+    <section class="banner">
+      <img src="assets/img/presents-pile.jpg" alt="" loading="lazy">
+      <div class="banner-copy">
+        <p class="eyebrow">Can't decide?</p>
+        <h2>Build your own hamper</h2>
+        <p>Pick 3 or more gifts and we'll box them together with a ribbon and a card. Save 10% automatically.</p>
+        <a class="btn btn-light" href="collection.html">Start building</a>
+      </div>
+    </section>
+
+    <!-- Corporate enquiry -->
+    <section class="section" id="corporate">
+      <div class="container corporate">
+        <div>
+          <p class="eyebrow">Corporate gifting</p>
+          <h2>Gifts your team will actually keep</h2>
+          <p>From Diwali boxes for 50 people to onboarding kits for 5,000, we handle the curation, branding, packing and multi-city delivery.</p>
+          <div class="stats">
+            <div><b>400+</b><span>companies served</span></div>
+            <div><b>48 hr</b><span>sample turnaround</span></div>
+            <div><b>GST</b><span>invoicing</span></div>
+          </div>
+        </div>
+        <form class="card-form" data-form="corporate">
+          <h3>Request a quote</h3>
+          <div class="field-row">
+            <label>Name<input required name="name"></label>
+            <label>Company<input required name="company"></label>
+          </div>
+          <div class="field-row">
+            <label>Work email<input type="email" required name="email"></label>
+            <label>Phone<input type="tel" required pattern="[0-9+ ]{10,14}" name="phone"></label>
+          </div>
+          <div class="field-row">
+            <label>Quantity
+              <select name="qty"><option>25–50</option><option>51–200</option><option>201–1000</option><option>1000+</option></select>
+            </label>
+            <label>Budget per gift
+              <select name="budget"><option>Under ₹1,000</option><option>₹1,000–2,500</option><option>₹2,500–5,000</option><option>₹5,000+</option></select>
+            </label>
+          </div>
+          <label>Anything else?<textarea rows="3" name="notes" placeholder="Occasion, delivery date, branding needs…"></textarea></label>
+          <button class="btn btn-primary btn-block" type="submit">Send enquiry</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section-tint">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow">Kind words</p>
+          <h2>Gifts that got remembered</h2>
+        </div>
+        <div class="quotes">
+          <figure>
+            <blockquote>“The wrapping alone made my mother tear up. The note was written exactly as I typed it, in lovely handwriting.”</blockquote>
+            <figcaption>Ananya R. · Bengaluru</figcaption>
+          </figure>
+          <figure>
+            <blockquote>“We sent 180 Diwali boxes to clients in 14 cities. Everything arrived on time, and the logo sleeve looked premium.”</blockquote>
+            <figcaption>Karan M. · HR Lead, Pune</figcaption>
+          </figure>
+          <figure>
+            <blockquote>“I ordered at midnight in a panic and it reached my sister's door the next evening. Lifesaver.”</blockquote>
+            <figcaption>Farah S. · Mumbai</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social strip -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow">@shivaara.gifts</p>
+          <h2>Unboxed by you</h2>
+        </div>
+        <div class="gallery">
+          <img src="assets/img/holding-gift.jpg" alt="" loading="lazy">
+          <img src="assets/img/candle-corner.jpg" alt="" loading="lazy">
+          <img src="assets/img/diya-tray.jpg" alt="" loading="lazy">
+          <img src="assets/img/dried-bloom.jpg" alt="" loading="lazy">
+          <img src="assets/img/tea-ritual.jpg" alt="" loading="lazy">
+          <img src="assets/img/twin-kraft.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+</html>
